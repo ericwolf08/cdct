@@ -23,7 +23,7 @@ public class Client {
   }
 
   private Optional<JsonNode> loadProviderJson(String dateTime) throws UnirestException {
-    HttpRequest getRequest = Unirest.get(url + "/provider.json");
+    HttpRequest getRequest = Unirest.get(url + "/provider");
 
     if (StringUtils.isNoneEmpty(dateTime)) {
       getRequest = getRequest.queryString("validDate", dateTime);
