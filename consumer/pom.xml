@@ -11,15 +11,12 @@
 
     <artifactId>consumer</artifactId>
 
-    <!-- https://mvnrepository.com/artifact/com.mashape.unirest/unirest-java -->
-
     <dependencies>
         <dependency>
             <groupId>com.mashape.unirest</groupId>
             <artifactId>unirest-java</artifactId>
             <version>1.4.9</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
