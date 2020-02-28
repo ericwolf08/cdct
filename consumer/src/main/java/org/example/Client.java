@@ -22,6 +22,8 @@ public class Client {
     this.url = url;
   }
 
+  //TODO: adapt to test
+
   private Optional<JsonNode> loadProviderJson(String dateTime) throws UnirestException {
     HttpRequest getRequest = Unirest.get(url + "/provider");
 
